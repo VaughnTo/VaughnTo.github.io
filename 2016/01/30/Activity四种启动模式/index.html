@@ -6,43 +6,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <title>Activity四种启动模式 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#Activity四种启动模式
-##一、Activity启动方式有四种，分别是：
-
+  <meta name="description" content="Activity四种启动模式一、Activity启动方式有四种，分别是：
 1、standard
 2、singleTop
 3、singleTask
 4、singleInstance
 
 可以根据实际的需求为Activity设置对应的启动模式，从而可以避免创建大量重复的Activity等问题。
-设置Activity的启动模式，只需要在AndroidManifest.xml里对应的标签设置and">
+设置Activity的启动模式，只需要在AndroidManifest.xml里对应的标签设置android:">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Activity四种启动模式">
 <meta property="og:url" content="http://yoursite.com/2016/01/30/Activity四种启动模式/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="#Activity四种启动模式
-##一、Activity启动方式有四种，分别是：
-
+<meta property="og:description" content="Activity四种启动模式一、Activity启动方式有四种，分别是：
 1、standard
 2、singleTop
 3、singleTask
 4、singleInstance
 
 可以根据实际的需求为Activity设置对应的启动模式，从而可以避免创建大量重复的Activity等问题。
-设置Activity的启动模式，只需要在AndroidManifest.xml里对应的标签设置and">
-<meta property="og:updated_time" content="2016-01-30T09:30:20.039Z">
+设置Activity的启动模式，只需要在AndroidManifest.xml里对应的标签设置android:">
+<meta property="og:updated_time" content="2016-01-30T09:40:24.986Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Activity四种启动模式">
-<meta name="twitter:description" content="#Activity四种启动模式
-##一、Activity启动方式有四种，分别是：
-
+<meta name="twitter:description" content="Activity四种启动模式一、Activity启动方式有四种，分别是：
 1、standard
 2、singleTop
 3、singleTask
 4、singleInstance
 
 可以根据实际的需求为Activity设置对应的启动模式，从而可以避免创建大量重复的Activity等问题。
-设置Activity的启动模式，只需要在AndroidManifest.xml里对应的标签设置and">
+设置Activity的启动模式，只需要在AndroidManifest.xml里对应的标签设置android:">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -142,7 +136,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Android-Activity/" style="font-size: 10px;">Android,Activity</a>
+						<a href="/tags/Android-Activity/" style="font-size: 10px;">Android Activity</a>
 					</div>
 				</section>
 				
@@ -250,7 +244,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android-Activity/">Android,Activity</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android-Activity/">Android Activity</a></li></ul>
 	</div>
 
         
@@ -265,23 +259,19 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#Activity四种启动模式</p>
-<p>##一、Activity启动方式有四种，分别是：</p>
-<ul>
+        <h1 id="Activity_u56DB_u79CD_u542F_u52A8_u6A21_u5F0F"><a href="#Activity_u56DB_u79CD_u542F_u52A8_u6A21_u5F0F" class="headerlink" title="Activity四种启动模式"></a>Activity四种启动模式</h1><h2 id="u4E00_u3001Activity_u542F_u52A8_u65B9_u5F0F_u6709_u56DB_u79CD_uFF0C_u5206_u522B_u662F_uFF1A"><a href="#u4E00_u3001Activity_u542F_u52A8_u65B9_u5F0F_u6709_u56DB_u79CD_uFF0C_u5206_u522B_u662F_uFF1A" class="headerlink" title="一、Activity启动方式有四种，分别是："></a>一、Activity启动方式有四种，分别是：</h2><ul>
 <li>1、standard</li>
 <li>2、singleTop</li>
 <li>3、singleTask</li>
 <li>4、singleInstance</li>
 </ul>
 <p>可以根据实际的需求为Activity设置对应的启动模式，从而可以避免创建大量重复的Activity等问题。</p>
-<p>设置Activity的启动模式，只需要在AndroidManifest.xml里对应的<activity>标签设置android:launchMode属性，例如：</activity></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;activity  </span><br><span class="line">  android:name=<span class="string">".A1"</span>  </span><br><span class="line">  android:launchMode=<span class="string">"standard"</span> /&gt;</span><br></pre></td></tr></table></figure>
-<p>##二、下面是这四种模式的作用：</p>
-<p>###1、standard<br>默认模式，可以不用写配置。在这个模式下，都会默认创建一个新的实例。因此，在这种模式下，可以有多个相同的实例，也允许多个相同Activity叠加。</p>
+<p>设置Activity的启动模式，只需要在AndroidManifest.xml里对应的<activity>标签设置android:launchMode属性，例如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;activity  </span><br><span class="line">  android:name=<span class="string">".A1"</span>  </span><br><span class="line">  android:launchMode=<span class="string">"standard"</span> /&gt;</span><br></pre></td></tr></table></figure></activity></p>
+<h2 id="u4E8C_u3001_u4E0B_u9762_u662F_u8FD9_u56DB_u79CD_u6A21_u5F0F_u7684_u4F5C_u7528_uFF1A"><a href="#u4E8C_u3001_u4E0B_u9762_u662F_u8FD9_u56DB_u79CD_u6A21_u5F0F_u7684_u4F5C_u7528_uFF1A" class="headerlink" title="二、下面是这四种模式的作用："></a>二、下面是这四种模式的作用：</h2><h3 id="1_u3001standard"><a href="#1_u3001standard" class="headerlink" title="1、standard"></a>1、standard</h3><p>默认模式，可以不用写配置。在这个模式下，都会默认创建一个新的实例。因此，在这种模式下，可以有多个相同的实例，也允许多个相同Activity叠加。</p>
 <p>例如：<br>若我有一个Activity名为A1, 上面有一个按钮可跳转到A1。那么如果我点击按钮，便会新启一个Activity A1叠在刚才的A1之上，再点击，又会再新启一个在它之上……<br>点back键会依照栈顺序依次退出。</p>
-<p>###2、singleTop<br>可以有多个实例，但是不允许多个相同Activity叠加。即，如果Activity在栈顶的时候，启动相同的Activity，不会创建新的实例，而会调用其onNewIntent方法。</p>
+<h3 id="2_u3001singleTop"><a href="#2_u3001singleTop" class="headerlink" title="2、singleTop"></a>2、singleTop</h3><p>可以有多个实例，但是不允许多个相同Activity叠加。即，如果Activity在栈顶的时候，启动相同的Activity，不会创建新的实例，而会调用其onNewIntent方法。</p>
 <p>例如：若我有两个Activity名为B1,B2,两个Activity内容功能完全相同，都有两个按钮可以跳到B1或者B2，唯一不同的是B1为standard，B2为singleTop。<br>若我意图打开的顺序为B1-&gt;B2-&gt;B2，则实际打开的顺序为B1-&gt;B2（后一次意图打开B2，实际只调用了前一个的onNewIntent方法）<br>若我意图打开的顺序为B1-&gt;B2-&gt;B1-&gt;B2，则实际打开的顺序与意图的一致，为B1-&gt;B2-&gt;B1-&gt;B2。</p>
-<p>###3、singleTask<br>只有一个实例。在同一个应用程序中启动他的时候，若Activity不存在，则会在当前task创建一个新的实例，若存在，则会把task中在其之上的其它Activity destory掉并调用它的onNewIntent方法。<br>如果是在别的应用程序中启动它，则会新建一个task，并在该task中启动这个Activity，singleTask允许别的Activity与其在一个task中共存，也就是说，如果我在这个singleTask的实例中再打开新的Activity，这个新的Activity还是会在singleTask的实例的task中。</p>
+<h3 id="3_u3001singleTask"><a href="#3_u3001singleTask" class="headerlink" title="3、singleTask"></a>3、singleTask</h3><p>只有一个实例。在同一个应用程序中启动他的时候，若Activity不存在，则会在当前task创建一个新的实例，若存在，则会把task中在其之上的其它Activity destory掉并调用它的onNewIntent方法。<br>如果是在别的应用程序中启动它，则会新建一个task，并在该task中启动这个Activity，singleTask允许别的Activity与其在一个task中共存，也就是说，如果我在这个singleTask的实例中再打开新的Activity，这个新的Activity还是会在singleTask的实例的task中。</p>
 <p>例如：<br>若我的应用程序中有三个Activity,C1,C2,C3，三个Activity可互相启动，其中C2为singleTask模式，那么，无论我在这个程序中如何点击启动，如：C1-&gt;C2-&gt;C3-&gt;C2-&gt;C3-&gt;C1-C2，C1,C3可能存在多个实例，但是C2只会存在一个，并且这三个Activity都在同一个task里面。<br>但是C1-&gt;C2-&gt;C3-&gt;C2-&gt;C3-&gt;C1-C2，这样的操作过程实际应该是如下这样的，因为singleTask会把task中在其之上的其它Activity destory掉。</p>
 <table><br>   <tr><br>      <td>操作：</td><br>      <td>C1-&gt;C2</td><br>      <td>C1-&gt;C2-&gt;C3</td><br>      <td>C1-&gt;C2-&gt;C3-&gt;C2</td><br>      <td>C1-&gt;C2-&gt;C3-&gt;C2-&gt;C3-&gt;C1</td><br>      <td>C1-&gt;C2-&gt;C3-&gt;C2-&gt;C3-&gt;C1-C2</td><br>   </tr><br>   <tr><br>      <td>操作：</td><br>      <td>C1-&gt;C2</td><br>      <td>C1-&gt;C2-&gt;C3</td><br>      <td>C1-&gt;C2</td><br>      <td>C1-&gt;C2-&gt;C3-&gt;C1</td><br>      <td>C1-&gt;C2</td><br>   </tr><br></table>
 
